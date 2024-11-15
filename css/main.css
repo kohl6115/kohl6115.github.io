@@ -1,66 +1,61 @@
-/* Apply a background color to the body of each page */
 body {
-    background-color: #f0f0f0; /* Light gray background */
+    background-color: #f0f0f0; 
 }
 
-/* Apply a background image to the page */
+
 body {
-    background-image: url('path/to/your/background.jpg'); /* Set a background image */
-    background-size: cover; /* Ensure the image covers the entire page */
-    background-position: center; /* Center the image */
+    background-image: url('path/to/your/background.jpg'); 
+    background-size: cover; 
+    background-position: center; 
 }
 
-/* Apply styles to all img elements */
+
 img {
-    width: 100%; /* Make images responsive */
-    max-width: 600px; /* Set a maximum width for large images */
-    border-radius: 10px; /* Round the corners of the images */
-    opacity: 0.9; /* Slightly reduce the opacity of images */
-    transition: opacity 0.3s ease; /* Smooth transition on hover */
+    width: 100%; 
+    max-width: 600px; 
+    border-radius: 10px; 
+    opacity: 0.9; 
+    transition: opacity 0.3s ease; 
 }
 
-/* Change image opacity on hover */
+
 img:hover {
-    opacity: 1; /* Full opacity on hover */
+    opacity: 1; 
 }
 
-/* Style the h1 elements */
+
 h1 {
-    color: #2e3d4e; /* Custom dark blue color */
-    font-size: 36px; /* Larger font size */
-    font-weight: bold; /* Make the text bold */
-    text-decoration: underline; /* Underline the text */
-    text-align: center; /* Center the text */
-    margin-bottom: 20px; /* Space below the h1 */
+    color: #2e3d4e; 
+    font-size: 36px; 
+    font-weight: bold;
+    text-decoration: underline; 
+    text-align: center;
+    margin-bottom: 20px; 
 }
 
-/* Apply some padding and font style to paragraphs */
 p {
     padding: 10px;
-    font-family: 'Arial', sans-serif; /* Set font family for readability */
+    font-family: 'Arial', sans-serif; 
     font-size: 16px;
-    color: #333; /* Dark gray text color */
+    color: #333; 
 }
 
-/* Add margin to sections for spacing */
 section {
     margin: 30px 0;
 }
 
-/* Style links */
+
 a {
-    color: #0066cc; /* Blue color for links */
-    text-decoration: none; /* Remove underline */
-}
+    color: #0066cc; 
+    text-decoration: none; 
 
 a:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
 }
 
-/* Apply some padding and background to buttons */
 button {
     padding: 10px 20px;
-    background-color: #0066cc; /* Blue background */
+    background-color: #0066cc;
     color: white;
     border: none;
     border-radius: 5px;
@@ -69,10 +64,10 @@ button {
 }
 
 button:hover {
-    background-color: #004b8d; /* Darker blue on hover */
+    background-color: #004b8d; 
 }
 
-/* Make sure the page content has enough space */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
